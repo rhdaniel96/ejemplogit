@@ -7,15 +7,17 @@ while ciclo:
           3) Salir
           
           ''')
-    op = int(input("Seleccione: "))
-    match op:
-        case 1:
-            print("Comprar")
-        case 2:
-            print("Vender")
-        case 3:
-            ciclo = False
-        case _:
-            print("Opcion incorrecta")
-            
+    try:
+        op = int(input("Seleccione: "))
+        match op:
+            case 1:
+                print("Comprar")
+            case 2:
+                print("Vender")
+            case 3:
+                ciclo = False
+            case _:
+                print("Opcion incorrecta")
+    except Exception as error:
+        print("no simio")        
             
