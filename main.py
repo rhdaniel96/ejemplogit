@@ -2,7 +2,7 @@ ciclo = True
 while ciclo:
     print('''
           Menu Principal
-          1) Comprar
+          1) Compra
           2) Vender
           3) Salir
           
